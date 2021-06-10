@@ -2686,11 +2686,11 @@ input, select, textarea {
 
 	#banner {
 		background-image: url("../../images/banner.jpg");
-		background-position: center center;
+		background-position: auto;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
-		position: relative;
+		position: auto;
 	}
 
 		#banner header {
