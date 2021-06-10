@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
-* Title:		Olivia Husin Portfolio - Main CSS
-* Author:		Olivia Husin
+* Title:	Olivia Husin Portfolio - Main CSS
+* Author:	Olivia Husin
 * Last Update:	09.06.2021
 */
 
@@ -21,7 +21,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 80%%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -33,9 +32,6 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
-}
 
 blockquote, q {
 	quotes: none;
@@ -87,13 +83,8 @@ input, select, textarea {
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
+
 			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
 			transition: none !important;
 		}
 
@@ -103,17 +94,6 @@ input, select, textarea {
 		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65em;
-	}
-
-
-	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #37c0fb;
-		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
