@@ -4,7 +4,7 @@
 /*
 * Title:	Olivia Husin Portfolio - Main CSS
 * Author:	Olivia Husin
-* Last Update:	09.06.2021
+* Last Update:	12.06.2021
 */
 
 html, body, div, span, applet, object,
@@ -2539,9 +2539,8 @@ input, select, textarea {
 	#nav {
 		z-index: 2;
 		cursor: default;
-		margin: 3px;
 		position: fixed;
-		top: 3px;
+		top: 0px;
 		width: 100%;
 		background-color: rgba(0,0,0,0.75);
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
