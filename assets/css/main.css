@@ -2665,11 +2665,11 @@ input, select, textarea {
 
 	#banner {
 		background-image: url("../../images/banner.jpg");
-		background-position: auto;
+		background-position: cover;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
-		position: auto;
+		position: cover;
 	}
 
 		#banner header {
