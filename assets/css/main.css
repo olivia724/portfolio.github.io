@@ -4,7 +4,7 @@
 /*
 * Title:	Olivia Husin Portfolio - Main CSS
 * Author:	Olivia Husin
-* Last Update:	14.06.2021
+* Last Update:	18.06.2021
 */
 
 html, body, div, span, applet, object,
@@ -2535,6 +2535,17 @@ input, select, textarea {
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+			
+				#headername {
+					font-size: 20px;
+					padding-top: 5%;
+				}
+			
+				#logo {
+					font-size: 1.5em;
+					letter-spacing: -0.025em;
+					border: 0;
+				}
 
 	#nav {
 		z-index: 2;
